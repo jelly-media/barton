@@ -1,0 +1,38 @@
+.frizzly-tabs-container ul.frizzly-tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.frizzly-tabs-container ul.frizzly-tabs li {
+  float: left;
+  position: relative;
+  top: 1px;
+  background-color: white;
+  margin: 0 0.5em 0 0;
+  border: 1px solid transparent;
+  border-bottom-color: #ddd;
+}
+
+.frizzly-tabs-container ul.frizzly-tabs li a {
+  display: block;
+  padding: 0.4em 1em;
+  text-decoration: none;
+}
+
+.frizzly-tabs-container ul.frizzly-tabs li.frizzly-tab-active {
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  background-color: #fdfdfd;
+}
+
+.frizzly-tabs-container ul.frizzly-tabs li.frizzly-tab-active a {
+  color: #000;
+}
+
+.frizzly-tabs-container .frizzly-tab-panel {
+  border: 1px solid #ddd;
+  background-color: #fdfdfd;
+  padding: 0 1em;
+  clear: both;
+}

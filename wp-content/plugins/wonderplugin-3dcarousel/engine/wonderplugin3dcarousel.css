@@ -1,0 +1,55 @@
+.wonderplugin3dcarousel-flipy-in,
+.wonderplugin3dcarousel-flipy-out,
+.wonderplugin3dcarousel-fade-in,
+.wonderplugin3dcarousel-fade-out {
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+/* flip y */
+.wonderplugin3dcarousel-flipy-in {
+	transform: rotateY(-180deg);
+	-webkit-transform: rotateY(-180deg);
+}
+
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-flipy-in {
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+}
+
+.wonderplugin3dcarousel-flipy-out {	
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+}
+
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-flipy-out {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+}
+
+/* fade effect and none effect */
+.wonderplugin3dcarousel-fade-in,
+.wonderplugin3dcarousel-none-in {
+	opacity: 0;
+}
+
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-fade-in,
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-none-in {
+	opacity: 1;
+}
+
+.wonderplugin3dcarousel-fade-out,
+.wonderplugin3dcarousel-none-out {	
+	opacity: 1;
+}
+
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-fade-out,
+.wonderplugin3dcarousel-item:hover .wonderplugin3dcarousel-none-out {
+	opacoty: 0;
+}

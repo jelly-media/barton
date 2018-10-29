@@ -1,0 +1,88 @@
+# Translation of Plugins - WordPress Countdown Widget - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - WordPress Countdown Widget - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-06 02:32:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - WordPress Countdown Widget - Stable (latest release)\n"
+
+#. Plugin URI of the plugin/theme
+msgid "http://metinsaylan.com/projects/wordpress/countdown-widget/"
+msgstr "http://metinsaylan.com/projects/wordpress/countdown-widget/"
+
+#. Author URI of the plugin/theme
+msgid "http://metinsaylan.com/"
+msgstr "http://metinsaylan.com/"
+
+#. Author of the plugin/theme
+msgid "Metin Saylan"
+msgstr "Metin Saylan"
+
+#. Description of the plugin/theme
+msgid "A Beautiful jQuery Countdown Widget. Allows Multiple instances, Shortcode usage, and Customizations. Powered by: <a href=\"http://metinsaylan.com\">metinsaylan</a>."
+msgstr "A Beautiful jQuery Countdown Widget. Allows Multiple instances, Shortcode usage, and Customizations. Powered by: <a href=\"http://metinsaylan.com\">metinsaylan</a>."
+
+#. Plugin Name of the plugin/theme
+msgid "Countdown Widget"
+msgstr "Countdown Widget"
+
+#: countdown-widget.php:307
+msgid "Remove link"
+msgstr "Remove link"
+
+#: countdown-widget.php:304
+msgid "Border Radius :"
+msgstr "Border Radius :"
+
+#: countdown-widget.php:302
+msgid "Width :"
+msgstr "Width :"
+
+#: countdown-widget.php:300
+msgid "Background Color :"
+msgstr "Background Colour :"
+
+#: countdown-widget.php:298
+msgid "Text Color :"
+msgstr "Text Colour :"
+
+#: countdown-widget.php:286
+msgid "Timezone :"
+msgstr "Timezone :"
+
+#: countdown-widget.php:284
+msgid "Format :"
+msgstr "Format :"
+
+#: countdown-widget.php:281
+msgid "Time :"
+msgstr "Time :"
+
+#: countdown-widget.php:270
+msgid "Date :"
+msgstr "Date :"
+
+#: countdown-widget.php:263
+msgid "Count Down/Up :"
+msgstr "Count Down/Up :"
+
+#: countdown-widget.php:261
+msgid "Event Title:"
+msgstr "Event Title:"
+
+#: countdown-widget.php:259
+msgid "Widget Title:"
+msgstr "Widget Title:"
+
+#: countdown-widget.php:25
+msgid "CountDown/Up Timer"
+msgstr "CountDown/Up Timer"
+
+#: countdown-widget.php:24
+msgid "jQuery Countdown/up widget"
+msgstr "jQuery Countdown/up widget"
